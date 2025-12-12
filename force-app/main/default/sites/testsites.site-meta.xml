@@ -27,4 +27,5 @@
     <siteAdmin>storm.d5c1c23e23cc65@salesforce.com</siteAdmin>
     <siteGuestRecordDefaultOwner>storm.d5c1c23e23cc65@salesforce.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
+    <urlPathPrefix>ret</urlPathPrefix>
 </CustomSite>
