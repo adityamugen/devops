@@ -47,14 +47,14 @@
         <locationY>0</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>asst</targetReference>
+            <targetReference>Test</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>DeveloperName</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>Business_Account</stringValue>
+                <stringValue>Business_Accountttt</stringValue>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -96,6 +96,29 @@
         </connector>
     </start>
     <status>Active</status>
+    <subflows>
+        <name>Test</name>
+        <label>Test</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>asst</targetReference>
+        </connector>
+        <flowName>TestScreenSub</flowName>
+        <inputAssignments>
+            <name>CaseType</name>
+            <value>
+                <elementReference>CaseType</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <variables>
+        <name>CaseType</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
     <variables>
         <name>testvar</name>
         <dataType>SObject</dataType>
