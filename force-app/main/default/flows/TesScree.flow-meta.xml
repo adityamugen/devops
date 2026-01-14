@@ -2,6 +2,16 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>66.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>asst</name>
+        <label>asst</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>testvar</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+    </assignments>
     <customProperties>
         <name>ScreenProgressIndicator</name>
         <value>
@@ -36,6 +46,9 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>asst</targetReference>
+        </connector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>DeveloperName</field>
@@ -83,4 +96,12 @@
         </connector>
     </start>
     <status>Active</status>
+    <variables>
+        <name>testvar</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Account</objectType>
+    </variables>
 </Flow>
