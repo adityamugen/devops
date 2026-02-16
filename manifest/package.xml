@@ -32,6 +32,7 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+<<<<<<< HEAD
     <types>
         <members>*</members>
         <name>LightningMessageChannel</name>
@@ -46,3 +47,7 @@
     </types>
     <version>64.0</version>
 </Package>
+=======
+    <version>54.0</version>
+</Package>
+>>>>>>> feature/labelchanges

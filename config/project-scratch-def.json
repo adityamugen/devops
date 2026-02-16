@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "orgName": "my company",
+=======
+  "orgName": "sharma.a2 company",
+>>>>>>> feature/labelchanges
   "edition": "Developer",
   "features": ["EnableSetPasswordInApi"],
   "settings": {

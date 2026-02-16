@@ -24,6 +24,12 @@ yarn-error.log*
 # Dependency directories
 node_modules/
 
+<<<<<<< HEAD
+=======
+# ApexPMD cache
+.pmdCache
+
+>>>>>>> feature/labelchanges
 # Eslint cache
 .eslintcache
 
